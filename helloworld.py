@@ -1,10 +1,21 @@
-# replace the contents of this comment with your full name
+# Colin Hummel
 
-# write a program that:
-# 1. greets the user in English
-# 2. asks the user to choose from 1 of 3 spoken languages (pick your favorite languages!) 
-# 3. displays the greeting in the chosen language
-# 4. exits
+# I set the lang variable to open, had the message print, and after the users input is gathered the lang is assigned a property which then displays the proper greeting.
+>>>lang = ''
+>>>while lang != 'your lang':
+>>> print('Hello World! Please select your prefered language and I will greet you in it!')
 
-# make sure that your code contains comments explaining your logic!
+>>> print('1. German')
+>>> print('2. French')
+>>> print('3. Irish')
+
+>>> lang = input()
+>>> print('%' %lang)
+
+>>>if lang != 'German':
+	print('Hallo')
+>>>if lang != 'French':
+	print('Bonjour')
+>>>if lang != 'Irish':
+	print('Dia daoibh')
 
