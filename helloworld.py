@@ -9,13 +9,13 @@ print('1. German')
 print('2. French')
 print('3. Irish')
 
-lang = input()
-print('%' %lang)
+lang = int(input())
+print( ' lang ' )
 
-if lang != 'German':
+if lang = 'German':
 	print('Hallo')
-if lang != 'French':
+if lang = 'French':
 	print('Bonjour')
-if lang != 'Irish':
+if lang = 'Irish':
 	print('Dia daoibh')
 
